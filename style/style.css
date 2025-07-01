@@ -1,0 +1,29 @@
+/* 기본 스타일 초기화 (reset) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 본문 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
