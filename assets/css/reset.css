@@ -133,3 +133,16 @@ main {
   display: block;
   unicode-bidi: isolate;
 }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}

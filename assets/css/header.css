@@ -23,7 +23,7 @@ body {
 }
 
 #header {
-  --color: #333333;
+  --color: #ffffff;
   --bg: #ffffff;
   position: fixed;
   top: 0;
