@@ -1,0 +1,126 @@
+html,
+body {
+  font-size: clamp(16px, 0.9375vw, 24px);
+  font-family: "SUIT Variable", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  font-kerning: none;
+  -webkit-text-rendering: optimizeSpeed;
+  text-rendering: optimizeSpeed;
+  /* -webkit-font-feature-settings: normal; */
+  font-feature-settings: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+}
+
+body {
+  line-height: 1;
+  background: #0a31a8;
+}
+
+#header {
+  --color: #333333;
+  --bg: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+#header > .site-header {
+  transition: transform 500ms ease;
+  will-change: transform;
+}
+
+.site-header {
+  color: var(--color, #333333);
+  height: 6.1111111111rem;
+  display: grid;
+  align-items: center;
+  /* transition: color 100ms, background 100ms; */
+  position: relative;
+}
+
+.container {
+  padding: 0 3.5555555556rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header .brand a {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#header #nav .gnb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+#header #nav .gnb > li {
+  position: relative;
+  padding: 0 0.6666666667rem;
+}
+
+#header #nav .gnb > li > span {
+  min-width: clamp(5.5555555556rem, 10.7142857143vw, 10rem);
+  display: flex;
+  font-weight: 800;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  height: 6.1111111111rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+#header .utils {
+  display: flex;
+  align-items: center;
+  gap: 1.7777777778rem;
+}
+
+#header .utils .family {
+  font-size: 0.8888888889rem;
+  font-weight: 800;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.75em;
+  padding: 0 0.875em;
+  border-radius: 0.875em;
+  overflow: hidden;
+  isolation: isolate;
+  transition: color 100ms;
+}
+
+#header .langs {
+  display: flex;
+  align-items: center;
+  font-size: 0.7777777778rem;
+  color: #fff;
+  gap: 0.7142857143em;
+  font-weight: 800;
+}
