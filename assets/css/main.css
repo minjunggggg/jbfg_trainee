@@ -493,6 +493,12 @@ p {
   justify-content: space-between;
 }
 
+#mainKV .__stock-info .__stock hr {
+  background: rgba(0, 0, 0, 0.15);
+  height: 1px;
+  margin: 1.5555555556rem 0;
+}
+
 /* ir-calendar */
 #mainKV .__ir-calendar h4 {
   font-size: 1rem;
@@ -515,10 +521,20 @@ p {
 }
 
 /* valuation */
+#mainKV .__valuation {
+  font-size: 0.88888889rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
 #mainKV .__valuation ul {
   display: flex;
   justify-content: space-between;
   gap: 0.5em;
+}
+
+#mainKV .__valuation li {
+  flex: 1;
 }
 
 #mainKV .__valuation li img {
@@ -529,6 +545,13 @@ p {
   border-radius: 50%;
   margin: 0 auto 0.75em;
   display: block;
+}
+
+#mainKV .__valuation li span {
+  display: block;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin: 0 -0.25em;
 }
 
 /* mainEsg */
