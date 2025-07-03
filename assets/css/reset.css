@@ -110,20 +110,6 @@ h5 {
   word-break: keep-all;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
 ol,
 ul {
   list-style: none;
@@ -131,18 +117,9 @@ ul {
 
 main {
   display: block;
-  unicode-bidi: isolate;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
