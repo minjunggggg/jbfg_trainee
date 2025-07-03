@@ -64,6 +64,13 @@ body {
   align-items: center;
 }
 
+.site-header .brand svg {
+  display: block;
+  width: 8.8333333333rem;
+  height: auto;
+  overflow: visible;
+}
+
 .site-header .brand a {
   display: block;
 }
