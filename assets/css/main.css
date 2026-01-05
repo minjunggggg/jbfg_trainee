@@ -110,6 +110,13 @@ p {
 }
 
 /* container */
+.container {
+  padding: 0 3.5555555556rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .container .__boxed {
   max-width: 2086px;
   margin: 0 auto;
@@ -915,6 +922,20 @@ button {
   display: flex;
   flex-direction: column;
   transition: background-color 300ms, color 300ms;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .family-loops .loop-item .__box:hover {
+    background: #1c56ff;
+    color: #fff;
+  }
+
+  .family-loops .loop-item .__box:hover .__img img {
+    transform: scale(1.165);
+    display: block;
+    width: 100%;
+    transition: transform 800ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
 }
 
 .family-loops .loop-item .__box .__img {
